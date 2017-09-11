@@ -1,5 +1,6 @@
 /* eslint-env node */
 module.exports = {
+  parallel: 4,
   test_page: 'tests/index.html?hidepassed',
   disable_watching: true,
   launch_in_ci: [
